@@ -29,8 +29,7 @@
         "photo_url": {
           "description": "URL to the user's profile photo",
           "title": "Photo URL",
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         },
         "email": {
           "description": "User's email address",
