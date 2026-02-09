@@ -1,0 +1,35 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "UserProfile": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "userprofile-vocab": "https://raw.githubusercontent.com/chaincodechd/railway-workforce-vc-schema/refs/heads/main/user-profile.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "full_name": {
+            "@id": "userprofile-vocab:full_name",
+            "@type": "xsd:string"
+          },
+          "photo_url": {
+            "@id": "userprofile-vocab:photo_url",
+            "@type": "xsd:string"
+          },
+          "email": {
+            "@id": "userprofile-vocab:email",
+            "@type": "xsd:string"
+          },
+          "mobile_number": {
+            "@id": "userprofile-vocab:mobile_number",
+            "@type": "xsd:string"
+          }
+        },
+        "@id": "https://raw.githubusercontent.com/chaincodechd/railway-workforce-vc-schema/refs/heads/main/schema/json-ld/user-profile-v1.jsonld#UserProfile"
+      }
+    }
+  ]
+}
