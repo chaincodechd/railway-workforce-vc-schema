@@ -43,7 +43,7 @@
           "type": "string"
         }
       },
-      "required": ["full_name", "photo_url", "email", "mobile_number"],
+      "required": ["full_name", "photo_url", "mobile_number"],
       "type": "object"
     },
     "@context": {
